@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffbea;
+  color: #2d2a26;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f5b301;
+  color: #2d2a26;
+  padding: 1.5rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin: 0.25rem 0 1rem;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #2d2a26;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #d9480f;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+h2,
+h3 {
+  color: #d9480f;
+}
+
+section {
+  background-color: #ffffff;
+  border-left: 5px solid #f5b301;
+  border-radius: 4px;
+  padding: 0.5rem 1.25rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #d9480f;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b33a0a;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #f5b301;
+}
+
+th,
+td {
+  border: 1px solid #e0c36a;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+#note-input {
+  width: auto;
+}
+
+footer {
+  background-color: #2d2a26;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
